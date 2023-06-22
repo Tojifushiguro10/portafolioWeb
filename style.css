@@ -23,6 +23,7 @@ body{
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 
 
@@ -139,4 +140,15 @@ a >h4:hover{
 
 .parrafo-portafolio{
     margin-bottom: 1rem;
+}
+
+/* aqui inicia la sesion de contacto */ 
+
+.form_contacto{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+     box-shadow: 1px 2px 10px 2px rgb(78, 69, 69);
+     margin-top: 2rem;
 }
